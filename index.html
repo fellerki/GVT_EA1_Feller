@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GVT - EA1 - Kim Feller</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>EA1 - Interaktiv animierte Scheibe</h1>
+<h2>Graphical Visualisation Technologies</h2>
+<p>Kim Lara Feller, Technische Hochschule Lübeck, Matrikelnummer 331177</p>
+
+<p><b>Hinweise und Referenzen</b> Die Grafik für die Scheibe ist eine Privataufnahme meines Katers. Mit Hilfe von Adobe Animate habe ich ein entsprechendes Sprite Sheet erstellt.
+Die Grafik für den "Partyhut" als Teil der versuchten Erweiterung habe ich unter folgendem Link entnommen: https://www.flaticon.com/de/kostenloses-icon/partyhut_2156457 und ebenfalls daraus
+mit Animate ein Sprite Sheet erstellt.
+
+Die Scheibe kann mit Hilfe der Button "Links", "Rechts" und "Animation an/aus" animiert werden. Zudem können die Optionen in entsprechender Reihenfolge mit der Tastatureingabe l, r und a erfolgen.
+</p>
+
+<div class="controls-container">
+  <button id="left">Links (l)</button>
+
+  <div class="container">
+    <div class="container-hat">
+      <img id="party-hat" src="img/sheet-hat.png" alt="Springender Partyhut">
+    </div>
+    <img id="rotating-disk" src="img/sheet-cat.png" alt="Drehende Katzen-Scheibe">
+  </div>
+
+  <button id="right">Rechts (r)</button>
+</div>
+
+<button id="toggle-animation">Animation Katze an/aus (a)</button>
+<button id="toggle-partyhat">Animation Partyhut an/aus</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
